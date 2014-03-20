@@ -13,6 +13,9 @@ module.exports = (grunt) ->
     stylus:
       compile:
         options:
+          use: [
+              () -> require('autoprefixer-stylus')('last 2 versions', 'ie 8', 'ie 9')
+          ]
           compress: false
         files:
           'css/main.css': 'css/main.styl'

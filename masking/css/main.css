@@ -1,0 +1,17 @@
+body {
+  color: #1a1a1a;
+}
+main {
+  display: block;
+  height: 2000px;
+}
+.mask {
+  background: url("../img/mask_logo.jpg") no-repeat #e52524;
+  background-position: center 30px;
+  width: 327px;
+  height: 327px;
+  background-attachment: fixed;
+  position: relative;
+  margin: 400px auto 0;
+  -webkit-mask-image: url("../img/mask_mask.svg");
+}
