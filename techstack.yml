@@ -1,0 +1,116 @@
+repo_name: GarthDB/prototypes
+report_id: f4b0552bfbc29978ab235b09faaaf206
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-11T00:08:55+00:00'
+requested_by: GarthDB
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/GarthDB/prototypes
+  detection_source: Repo Metadata
+- name: CoffeeScript
+  description: A little language that compiles into JavaScript
+  website_url: http://coffeescript.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/GarthDB/prototypes
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/GarthDB/prototypes
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GarthDB/prototypes
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/GarthDB/prototypes/blob/master/masking/package.json
+  detection_source: masking/package.json
+  last_updated_by: garthdb
+  last_updated_on: 2014-03-20 16:52:24.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/GarthDB/prototypes/blob/master/masking/package.json
+  detection_source: masking/package.json
+  last_updated_by: garthdb
+  last_updated_on: 2014-03-20 16:52:24.000000000 Z
+- name: coffee-script
+  description: Unfancy JavaScript
+  package_url: https://www.npmjs.com/coffee-script
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/GarthDB/prototypes/blob/master/masking/package.json
+  detection_source: masking/package.json
+  last_updated_by: garthdb
+  last_updated_on: 2014-03-20 20:32:51.000000000 Z
+- name: grunt-contrib-coffee
+  description: Compile CoffeeScript files to JavaScript
+  package_url: https://www.npmjs.com/grunt-contrib-coffee
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16284/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/GarthDB/prototypes/blob/master/masking/package.json
+  detection_source: masking/package.json
+  last_updated_by: garthdb
+  last_updated_on: 2014-03-20 20:32:51.000000000 Z
+- name: grunt-contrib-connect
+  description: Start a connect web server
+  package_url: https://www.npmjs.com/grunt-contrib-connect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/GarthDB/prototypes/blob/master/masking/package.json
+  detection_source: masking/package.json
+  last_updated_by: garthdb
+  last_updated_on: 2014-03-20 16:52:24.000000000 Z
